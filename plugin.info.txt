@@ -1,0 +1,7 @@
+base   autoindex
+author Andreas Gohr
+email  gohr@cosmocode.de
+date   2023-02-09
+name   autoindex plugin
+desc   List namespace contents in a alphabetical index
+url    https://www.dokuwiki.org/plugin:autoindex
