@@ -72,7 +72,7 @@ class syntax_plugin_autoindex extends \dokuwiki\Extension\SyntaxPlugin
 
         $last = '';
         foreach ($data as $page) {
-            $first = PhpString::substr($page['title'], 0, 1);
+            $first = PhpString::strtoupper(PhpString::substr($page['title'], 0, 1));
             if ($first !== $last) {
                 if ($last !== '') {
                     $renderer->listu_close();
