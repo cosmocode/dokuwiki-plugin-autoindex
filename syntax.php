@@ -57,6 +57,7 @@ class syntax_plugin_autoindex extends \dokuwiki\Extension\SyntaxPlugin
             'listfiles' => true,
             'pagesonly' => true,
             'firsthead' => true,
+            'depth' => 1,
         ];
         $data = [];
         $ns = ':' . cleanID(getNS($INFO['id']));
