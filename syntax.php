@@ -94,7 +94,7 @@ class syntax_plugin_autoindex extends \dokuwiki\Extension\SyntaxPlugin
 
         if ($last !== '') {
             $renderer->listu_close();
-            if ($format === 'xhtml') $renderer->doc .= '<div>';
+            if ($format === 'xhtml') $renderer->doc .= '</div>';
         }
 
         if ($format === 'xhtml') {
